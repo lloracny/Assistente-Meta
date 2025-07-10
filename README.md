@@ -28,3 +28,4 @@ Você pode gerar gratuitamente sua chave seguindo os passos abaixo:
 4. Copie e cole no campo “API Key” ao usar o app
 
 >  **Importante:** guarde sua chave com segurança e não compartilhe publicamente!
+> Link para utilização: [Assistente Meta](https://lloracny.github.io/Assistente-Meta/)
