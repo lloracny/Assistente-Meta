@@ -1,63 +1,30 @@
-# Titulo Grande
+<h1 align="center"> Assistente de Meta – NLW Agents 20 | Rocketseat</h1>
 
-- HyperText
-    - Textos puros, livros, revistas, jornais
-    - Links: acessar outros documentos
-    - Imagens, vídeos, áudios
-- Markup
-    - Marcação
-    - Tags: <a>Link</a>
-    - Atributos: <a href="www.google.com">Link</a>
-    - Globais: id, class, ...
-- Language
-    -Linguagem
-    -Sintaxe: maneira de escrever
+Este projeto contém um assistente inteligente feito com **Gemini API** e JavaScript, capaz de responder perguntas sobre estratégias e dicas para três jogos: **League of Legends**, **Valorant** e **CS:GO**. 
+Ele foi desenvolvido durante o **NLW Agents da Rocketseat**, com o objetivo de explorar o poder da IA no desenvolvimento Web.
 
-# HTTP
+##  Funcionalidades
+-  Conecta com a API Gemini da Google;
+-  Seleção de jogo entre LoL, Valorant e CS:GO;
+-  Envio de perguntas personalizadas;
+-  Layout estilizado com CSS.
 
-- Hypertext
-- Transfer
-- Protocol
+##  Tecnologias utilizadas
+- HTML
+- CSS
+- JavaScript
+- [Showdown.js](https://github.com/showdownjs/showdown) -> para converter markdown em HTML
+- [Gemini API](https://ai.google.dev/gemini-api/docs?hl=pt-br)
 
-# URL
-- Uniform
-- Resource
-- Locator
-Encontrar um recurso (html, css, js, pdf...)
-Endereço
+##  Sobre a API Key
 
-# IP
-- Internet
-- Protocol
-Endereço do computador
+Para utilizar o assistente, é necessário informar sua **própria API Key da Gemini** (Google AI).
 
-# DNS
-- Domain
-- Name
-- Server
+Você pode gerar gratuitamente sua chave seguindo os passos abaixo:
 
-# CSS
-- Cascade
-- Style
-- Sheet
+1. Acesse o [Google AI Studio](https://aistudio.google.com/apikey?hl=pt-br&_gl=1*5l3vtx*_ga*NjUxNDQ0MjE4LjE3NTIwNjgwMzE.*_ga_P1DBVKWT6V*czE3NTIxNTgxMjUkbzMkZzEkdDE3NTIxNTgzNzIkajIwJGwwJGgxMTIwNTQwODE0)
+2. Clique em “Criar chave de API Key” no menu lateral
+3. Gere uma chave de acesso
+4. Copie e cole no campo “API Key” ao usar o app
 
-# JS
-- Linguagem de Programação
-- Browsers
-- Input -> Process -> Output
-- Variáveis
-- Function
-    - Agrupamento e reuso de Código
-    - Sequência Lógica
-- Saída
-- Gemini (IA): esperar uma resposta
-- Mexer no navegador
-- Estrutura de dados
-- Estrutura de decisão
-- Algoritmo: sequência de passos
-
-# API
-- Application
-- Programming
-- Interface
-- JSON: JavaScript Object Notation
+>  **Importante:** guarde sua chave com segurança e não compartilhe publicamente!
