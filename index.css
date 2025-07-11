@@ -22,19 +22,20 @@ body * {
 }
 
 header{
-    padding-top: 2rem;
     text-align: center;
 }
 
 /*Dentro do header tem imagem */
 header img {
-    width: 15rem;
+    width: 200px; 
+    display: block;
+    margin: 0 auto;
 }
 
 main{
-    max-width: 36ren;
+    max-width: 36rem;
     width: 90%;
-    margin: 3rem auto;
+    margin: 1.5rem auto; 
 }
 
 section {
@@ -43,12 +44,11 @@ section {
     padding-bottom: 4px;
     padding-right: 4px;
     padding-left: 4px;
-    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50%, #E2D45C 100%);
+    background-image: linear-gradient(90deg, #d47070 0%, #b943e7 50%, #77abe7 100%);
 }
 
 section > div {
     padding: 2rem;
-    padding-top: 1.5rem;
     border-radius: 0.5rem;
     background-color: #2A2634;
 }
@@ -109,7 +109,7 @@ button{
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.12px;
-    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50%, #E2D45C 100%);;
+    background-image: linear-gradient(90deg, #aa2fcf 0%, #d47070 50%, #4da0ff 100%);
     transition: all 0.3s;
 }
 
