@@ -11,7 +11,7 @@ body{
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: top center;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0, 0.93);
     color: white;
 }
 
@@ -27,15 +27,16 @@ header{
 
 /*Dentro do header tem imagem */
 header img {
-    width: 200px; 
+    width: 150px; 
+    border-radius: 100px;
     display: block;
     margin: 0 auto;
 }
 
-main{
-    max-width: 36rem;
-    width: 90%;
-    margin: 1.5rem auto; 
+main {
+    max-width: 60rem; /* bem largona, ideal pra desktops */
+    width: 95%;
+    margin: 1.5rem auto;
 }
 
 section {
